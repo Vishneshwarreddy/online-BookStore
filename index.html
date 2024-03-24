@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BookStore Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header sticky">
+  <a class="logo" href="#home">
+      <h2> Vishneshwar </h2>   
+  </a>
+ 
+  <nav class="navbar">
+      <a href="index.html" class="active">HOME</a>
+      <a href="login.html" >LOGIN</a>
+      <a href="register.html" >REGISTER</a>
+      <a href="catologue.html" >CATALOGUE</a>
+  </nav>
+  <div class="fas fa-bars" id="menu-btn"></div>
+</header>
+<div class="main2" id="home" class="home">
+  <div class="books">
+           <div class="CSE">
+             <a href="#CSE" >CSE</a><br>
+           </div>
+           <div class="ECE">
+             <a href="#ECE" >ECE</a><br>
+           </div>
+           <div class="EEE">
+             <a href="#EEE" >EEE</a><br>
+           </div>
+           <div class="MECH">
+             <a href="#MECH" >MECH</a><br>
+           </div>
+   </div>
+   <div class="main-home">
+      <div>
+          <img src="book-image.avif" class="image"><br>
+          <p class="para1">Welcome to the Online Book Store!!!</p>
+          <p ><q class="para2" >A Huge Collection Of engineering E-Books</q></p>
+       </div>
+       
+   </div>
+   </div>
+   <section id="CSE">
+    <h2 class="heading">Computer Science and Engineering</h2>
+    <div class="cse">
+      <label for="textbooks">Text Books:</label style="">
+      <select id="textbooks">
+        <option value="web technogy">Web Technologies</option>
+        <option value="PHP & MySQL">PHP & MYSQL</option>
+      </select>
+      <br><br>
+        <label for="quantity">Quantity:</label>
+        <input type="text" id="quantity" name="quantity" value="2"><br><br>
+        <input type="submit" value="OK" style="text-align:center;padding:3px;;font-size:18px;">
+    </div>
+
+   </section>
+
+   <section id="ECE">
+    <h2 class="heading">Electronics and Communication Engineering</h2>
+    <div class="lists">
+      <ul>
+        <li>Digital Circuits</li>
+        <li>Signals and Systems</li>
+        <li>Digital Communications</li>
+      </ul>
+    </div>
+   </section>
+
+   <section id="EEE">
+    <h2 class="heading">Electronics and Electronics Engineering</h2>
+    <div class="lists">
+      <ul type="square">
+        <li>Concepts in Electrics Engineering</li>
+        <li>Introduction to Electronic Engineering</li>
+        <li>Electrical Power</li>
+      </ul>
+    </div>
+   </section>
+
+  </section>
+
+  <section id="MECH">
+   <h2 class="heading">Mechanical Engineering</h2>
+   <div class="lists">
+     <ol type="I">
+       <li>Theory of Machines</li>
+       <li>Automation and Robotics</li>
+       <li>Engineering Fluid Mechanics</li>
+     </ol>
+   </div>
+  </section>
+   
+   
+
+</body>
+</html>
